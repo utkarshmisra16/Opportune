@@ -65,7 +65,7 @@ const JobDesc = () => {
                             <div className="font-medium text-lg"> Google </div>
                             <div className="text-mine-shaft-300 text-sm font-light"> 10K+ Employees </div>
                         </div>
-                        <Link to=" " className="ml-96">
+                        <Link to="/company" className="ml-96">
                             <Button color="brightSun.4" variant="light" size="sm"> Company Page </Button>
                         </Link>
                     </div>
