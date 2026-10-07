@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Opportune/static/css/main.909757ee.css",
+    "main.js": "/Opportune/static/js/main.1340f4f6.js",
+    "static/js/453.77837119.chunk.js": "/Opportune/static/js/453.77837119.chunk.js",
+    "index.html": "/Opportune/index.html",
+    "main.909757ee.css.map": "/Opportune/static/css/main.909757ee.css.map",
+    "main.1340f4f6.js.map": "/Opportune/static/js/main.1340f4f6.js.map",
+    "453.77837119.chunk.js.map": "/Opportune/static/js/453.77837119.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.909757ee.css",
+    "static/js/main.1340f4f6.js"
+  ]
+}
