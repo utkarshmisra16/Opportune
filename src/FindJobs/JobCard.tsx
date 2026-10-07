@@ -8,7 +8,7 @@ const JobCard = (props:any) => {
             <div className="flex justify-between">
                 <div className="flex gap-2 items-center">
                     <div className="p-2 bg-mine-shaft-800 rounded-md">
-                        <img className="h-7" src={`/images/Icons/${props.company}.png`} alt="" />
+                        <img className="h-7" src={`${process.env.PUBLIC_URL}/images/Icons/${props.company}.png`} alt="" />
                     </div>
                     <div>
                         <div className="font-semibold">{props.jobTitle}</div>

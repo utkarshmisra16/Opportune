@@ -31,7 +31,7 @@ const JobCategories = () => {
                         <div className='flex flex-col items-center gap-1 w-64 border-2 border-bright-sun-400 p-5 rounded-xl mx-5 mt-10 
                         hover:cursor-pointer hover:shadow-[0_0_5px_2px_black] my-5 transition duration-300 ease-in-out !shadow-bright-sun-300'>
                             <div className='p-2 bg-bright-sun-300 rounded-full'>
-                                <img className='h-8 w-8' src={`/images/Category/${category.name}.png`} alt={category.name} />
+                                <img className='h-8 w-8' src={`${process.env.PUBLIC_URL}/images/Category/${category.name}.png`} alt={category.name} />
                             </div>
                             <div className='text-mine-shaft-100 text-xl font-semibold'>
                                 {category.name}

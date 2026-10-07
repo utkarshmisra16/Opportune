@@ -13,9 +13,9 @@ const Working = () => {
             </div>
             <div className='flex px-32 justify-between items-center'>
                 <div className='relative'>
-                    <img className="w-[30rem]" src="/images/Working/Girl.png" alt="girl" />
+                    <img className="w-[30rem]" src={`${process.env.PUBLIC_URL}/images/Working/Girl.png`} alt="girl" />
                     <div className='w-36 flex absolute top-[15%] right-0 flex-col border border-bright-sun-400 rounded-xl py-3 px-1 items-center gap-1 backdrop-blur-md'>
-                        <Avatar className='!h-16 !w-16' src="/images/avatar1.png" alt="it's me" />
+                        <Avatar className='!h-16 !w-16' src={`${process.env.PUBLIC_URL}/images/avatar1.png`} alt="it's me" />
                         <div className="text-sm font-semibold text-mine-shaft-200 text-center"> Complete Your Profile </div>
                         <div className="text-sm text-mine-shaft-300 text-center"> 70% Completed </div>
                     </div>
@@ -24,7 +24,7 @@ const Working = () => {
                     {
                         work.map((item, index) => <div key={index} className='flex items-center gap-4'>
                     <div className='p-2.5 bg-bright-sun-300 rounded-full'>
-                        <img className='h-12 w-12' src={`/images/Working/${item.name}.png`} alt="${item.name}" />
+                        <img className='h-12 w-12' src={`${process.env.PUBLIC_URL}/images/Working/${item.name}.png`} alt="${item.name}" />
                     </div>
                     <div>
                         <div className='text-mine-shaft-200 text-xl font-semibold'>{item.name}</div>

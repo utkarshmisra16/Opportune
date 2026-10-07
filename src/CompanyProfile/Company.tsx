@@ -9,14 +9,14 @@ const Company = () => {
         <div className="w-3/4">
             <div className="relative">
                 <img className="rounded-t-2xl" src="images/Profile/banner.jpg" alt="" />
-                <img className="w-36 h-36 rounded-3xl bg-mine-shaft-950 left-5 p-2 -bottom-1/3 absolute border-mine-shaft-950 border-8" src="/images/Icons/Google.png" alt="" />
+                <img className="w-36 h-36 rounded-3xl bg-mine-shaft-950 left-5 p-2 -bottom-1/3 absolute border-mine-shaft-950 border-8" src={`${process.env.PUBLIC_URL}/images/Icons/Google.png`} alt="" />
             </div>
             <div className="px-3 mt-16">
                 <div className="text-3xl font-semibold flex justify-between"> Google
                     <AvatarGroup>
-                        <Avatar src="/images/avatar.png" />
-                        <Avatar src="/images/avatar1.png" />
-                        <Avatar src="/images/avatar2.png" />
+                        <Avatar src={`${process.env.PUBLIC_URL}/images/avatar.png`} />
+                        <Avatar src={`${process.env.PUBLIC_URL}/images/avatar1.png`} />
+                        <Avatar src={`${process.env.PUBLIC_URL}/images/avatar2.png`} />
                         <Avatar> +10k </Avatar>
                     </AvatarGroup>
                 </div>
